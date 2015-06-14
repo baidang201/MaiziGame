@@ -11,6 +11,11 @@ HeroModel::HeroModel(int heroID, string heroName, string state)
 	m_heroID = heroID;
 	m_heroName = heroName;
 	m_state = state;
+
+	m_HP = 200;
+	m_MP = 300;
+	m_attack = 20;
+	m_defense = 30;
 }
 
 HeroModel::~HeroModel()

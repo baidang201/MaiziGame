@@ -30,6 +30,7 @@ private:
 	void closeLayer(Node* node);
 
 	void closeServerLayer(Node* node);
+	void closeHeroLayer(Node* node);
 
 	void startTouchEvent(Ref* sender, Widget::TouchEventType type );
 	void selectServerTouchEvent(Ref* sender, Widget::TouchEventType type);

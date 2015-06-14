@@ -35,6 +35,11 @@
         </Folder>
         <PlistParticleFile Name="particle_texture.plist" />
         <Image Name="particle_texture.png" />
+        <Folder Name="Map">
+          <Image Name="cityMap.jpg" />
+          <Image Name="house.png" />
+        </Folder>
+        <Project Name="MapLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

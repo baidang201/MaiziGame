@@ -32,8 +32,9 @@
           <FilePathData Path="SelectServerLayer.csd" />
           <FilePathData Path="SelectHeroItem.csd" />
           <FilePathData Path="SelectHeroLayer.csd" />
+          <FilePathData Path="MapLayer.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="SelectHeroItem.csd" />
+        <ActiveDocument Path="MapLayer.csd" />
       </Value>
     </Item>
   </Properties>

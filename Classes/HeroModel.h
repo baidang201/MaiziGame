@@ -19,6 +19,12 @@ public:
 	string m_heroName;
 	string m_state;
 	string getHeroImage();
+
+
+	float m_HP;
+	float m_MP;
+	float m_attack;
+	float m_defense;
 };
 
 #endif

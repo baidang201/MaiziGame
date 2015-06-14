@@ -1,2 +1,4 @@
 proj.win32/Debug.win32/*
 *.sdf
+proj.win32/*.opensdf
+proj.win32/*.v11.suo

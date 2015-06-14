@@ -67,7 +67,7 @@ void HelloWorld::startTouchEvent(Ref* pSender, Widget::TouchEventType type)
 		heros.pushBack(new HeroModel(4, "Mage4", "4"));
 
 		SelectHeroLayer* layer = SelectHeroLayer::createInstance();
-		layer->m_closeAction =  (SEL_CallFuncN)(&HelloWorld::closeServerLayer);
+		layer->m_closeAction =  (SEL_CallFuncN)(&HelloWorld::closeHeroLayer);
 		layer->setHeros(heros);
 		addChild(layer);
 
@@ -101,6 +101,13 @@ void HelloWorld::closeServerLayer(Node* node)
 	txtServerName->setString(RuntimeParam::getInstance()->m_currentServer->m_serverName);
 	imgState->loadTexture(RuntimeParam::getInstance()->m_currentServer->getStateImage());
 	closeLayer(node);
+}
+
+void HelloWorld::closeHeroLayer(Node* node)
+{
+	closeLayer(node);
+
+	//Ìí¼ÓµØÍ¼Ñ¡Ôñ
 }
 
 void HelloWorld::closeLayer(Node* node)
