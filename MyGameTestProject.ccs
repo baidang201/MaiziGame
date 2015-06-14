@@ -1,0 +1,41 @@
+<Solution>
+  <PropertyGroup Name="MyGameTestProject" Version="2.2.9.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="Login">
+          <Image Name="login_account.png" />
+          <Image Name="login_background.jpg" />
+          <Image Name="login_server.png" />
+          <Image Name="login_start.png" />
+          <Image Name="regist_list.png" />
+          <Image Name="regist_ok.png" />
+          <Image Name="regist_return.png" />
+          <Image Name="selectServer_split.png" />
+          <Image Name="selectServer_state1.png" />
+          <Image Name="selectServer_state2.png" />
+          <Image Name="selectServer_state3.png" />
+          <Image Name="selectServer_state4.png" />
+        </Folder>
+        <Folder Name="Public">
+          <Image Name="public_checkBox.png" />
+          <Image Name="public_checkedBox.png" />
+          <Image Name="public_input.png" />
+        </Folder>
+        <Project Name="SelectServerItem.csd" Type="Layer" />
+        <Project Name="SelectServerLayer.csd" Type="Layer" />
+        <Project Name="SelectHeroItem.csd" Type="Layer" />
+        <Project Name="SelectHeroLayer.csd" Type="Layer" />
+        <Folder Name="Hero">
+          <Image Name="Hero1.jpg" />
+          <Image Name="Hero2.jpg" />
+          <Image Name="Hero3.jpg" />
+          <Image Name="Hero4.jpg" />
+        </Folder>
+        <PlistParticleFile Name="particle_texture.plist" />
+        <Image Name="particle_texture.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
