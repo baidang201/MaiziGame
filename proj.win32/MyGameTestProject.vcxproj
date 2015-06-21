@@ -138,20 +138,24 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\HeroModel.cpp" />
+    <ClCompile Include="..\Classes\MapLayer.cpp" />
     <ClCompile Include="..\Classes\RuntimeParam.cpp" />
     <ClCompile Include="..\Classes\SelectHeroLayer.cpp" />
     <ClCompile Include="..\Classes\SelectServerLayer.cpp" />
     <ClCompile Include="..\Classes\ServerModel.cpp" />
+    <ClCompile Include="..\Classes\TavernLayer.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\HeroModel.h" />
+    <ClInclude Include="..\Classes\MapLayer.h" />
     <ClInclude Include="..\Classes\RuntimeParam.h" />
     <ClInclude Include="..\Classes\SelectHeroLayer.h" />
     <ClInclude Include="..\Classes\SelectServerLayer.h" />
     <ClInclude Include="..\Classes\ServerModel.h" />
+    <ClInclude Include="..\Classes\TavernLayer.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

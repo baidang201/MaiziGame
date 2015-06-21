@@ -40,6 +40,13 @@
           <Image Name="house.png" />
         </Folder>
         <Project Name="MapLayer.csd" Type="Layer" />
+        <Project Name="TavernLayer.csd" Type="Layer" />
+        <Folder Name="Dungeon" />
+        <Project Name="DungeonIceLayer.csd" Type="Layer" />
+        <Project Name="DungeonFireLayer.csd" Type="Layer" />
+        <Project Name="DungeonLightLayer.csd" Type="Layer" />
+        <Project Name="DungeonKingLayer.csd" Type="Layer" />
+        <Project Name="DungeonUpsiderLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

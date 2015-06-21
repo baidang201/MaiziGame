@@ -105,13 +105,17 @@ void HelloWorld::closeServerLayer(Node* node)
 
 void HelloWorld::closeHeroLayer(Node* node)
 {
-	closeLayer(node);
-
 	//Ìí¼ÓµØÍ¼Ñ¡Ôñ
+	MapLayer* layer = MapLayer::createInstance();
+	addChild(layer);
+
+	closeLayer(node);
 }
+
 
 void HelloWorld::closeLayer(Node* node)
 {
 	node->removeFromParentAndCleanup(true);
 	node=nullptr;
 }
+

@@ -7,6 +7,7 @@
 
 #include "SelectServerLayer.h"
 #include "SelectHeroLayer.h"
+#include "MapLayer.h"
 #include "RuntimeParam.h"
 
 USING_NS_CC;
@@ -31,6 +32,7 @@ private:
 
 	void closeServerLayer(Node* node);
 	void closeHeroLayer(Node* node);
+	void closeTavernLayer(Node* node);
 
 	void startTouchEvent(Ref* sender, Widget::TouchEventType type );
 	void selectServerTouchEvent(Ref* sender, Widget::TouchEventType type);
