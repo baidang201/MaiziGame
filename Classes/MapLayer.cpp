@@ -48,6 +48,7 @@ void MapLayer::selectTavernTouchEvent(Ref* pSender, Widget::TouchEventType type)
 		//µ¯³ö¾Æ¹İ½çÃæ
 		TavernLayer* layer = TavernLayer::createInstance();
 		layer->m_closeAction =  (SEL_CallFuncN)(&MapLayer::closeTavernLayer);
+		layer->setPartners(RuntimeParam::getInstance()->m_partners);
 		addChild(layer);
 	}
 }

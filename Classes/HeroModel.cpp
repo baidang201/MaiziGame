@@ -5,12 +5,12 @@ HeroModel::HeroModel()
 
 }
 
-HeroModel::HeroModel(int heroID, string heroName, string state)
+HeroModel::HeroModel(int heroID, string heroName, string comment)
 {
 	//todo(liyh) Éú³ÉºêÄ£°å£¿   m_#£¨£© = £¨£©
 	m_heroID = heroID;
 	m_heroName = heroName;
-	m_state = state;
+	m_comment = comment;
 
 	m_HP = 200;
 	m_MP = 300;
@@ -25,5 +25,10 @@ HeroModel::~HeroModel()
 
 string HeroModel::getHeroImage()
 {
-	return "Hero/Hero" + this->m_state + ".jpg";
+	return "Hero/Hero" + this->m_comment + ".jpg";
+}
+
+string HeroModel::getPartnerImage()
+{
+	return "Partner/Partner" + this->m_comment + ".png";
 }

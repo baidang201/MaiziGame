@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="DungeonLightLayer" ID="bd785351-c56e-4805-a1ed-add4f658b12c" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="DungeonLightLayer" ID="bd785351-c56e-4805-a1ed-add4f658b12c" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

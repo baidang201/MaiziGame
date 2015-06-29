@@ -5,6 +5,7 @@
 #include "cocostudio\CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "TavernLayer.h"
+#include "RuntimeParam.h"
 
 using namespace cocostudio::timeline;
 using namespace cocos2d::ui;

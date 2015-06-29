@@ -78,6 +78,7 @@ void SelectHeroLayer::selectTouchEvent(Ref* pSender, Widget::TouchEventType type
 	{
 		Layout* selectItem = static_cast<Layout*>(pSender);
 
+		//删除上次的粒子效果
 		for(Widget* item : lstHero->getItems() )
 		{
 			ImageView* imgHero = static_cast<ImageView*>(Helper::seekWidgetByName(item, "imgHero"));

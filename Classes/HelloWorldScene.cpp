@@ -57,18 +57,10 @@ void HelloWorld::startTouchEvent(Ref* pSender, Widget::TouchEventType type)
 {
 	if(type == Widget::TouchEventType::ENDED)
 	{
-		string userName = txtUserName->getString();
-
-
-		Vector<HeroModel*> heros = Vector<HeroModel*>();
-		heros.pushBack(new HeroModel(1, "Mage1", "1"));
-		heros.pushBack(new HeroModel(2, "Mage2", "2"));
-		heros.pushBack(new HeroModel(3, "Mage3", "3"));
-		heros.pushBack(new HeroModel(4, "Mage4", "4"));
-
+		string userName = txtUserName->getString();	
 		SelectHeroLayer* layer = SelectHeroLayer::createInstance();
 		layer->m_closeAction =  (SEL_CallFuncN)(&HelloWorld::closeHeroLayer);
-		layer->setHeros(heros);
+		layer->setHeros(RuntimeParam::getInstance()->m_heros);
 		addChild(layer);
 
 	}
@@ -78,19 +70,9 @@ void HelloWorld::selectServerTouchEvent(Ref* pSender, Widget::TouchEventType typ
 {
 	if(type == Widget::TouchEventType::ENDED)
 	{
-		Vector<ServerModel*> servers = Vector<ServerModel*>();
-		servers.pushBack(new ServerModel(1, "1服—水", "2"));
-		servers.pushBack(new ServerModel(2, "2服—生命", "2"));
-		servers.pushBack(new ServerModel(3, "3服—盾", "3"));
-		servers.pushBack(new ServerModel(4, "4服—雪", "4"));
-		servers.pushBack(new ServerModel(5, "5服—电", "1"));
-		servers.pushBack(new ServerModel(6, "6服—奥术", "3"));
-		servers.pushBack(new ServerModel(7, "7服—石", "1"));
-		servers.pushBack(new ServerModel(8, "8服—火", "1"));
-
 		SelectServerLayer* layer = SelectServerLayer::createInstance();
 		layer->m_closeAction =  (SEL_CallFuncN)(&HelloWorld::closeServerLayer);
-		layer->setServers(servers);
+		layer->setServers(RuntimeParam::getInstance()->m_servers);
 		addChild(layer);
 	}
 }

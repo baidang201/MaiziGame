@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="MapLayer" ID="76c94884-2cd7-47ab-8e1e-b94421bdf571" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="MapLayer" ID="76c94884-2cd7-47ab-8e1e-b94421bdf571" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -9,7 +9,7 @@
           <AbstractNodeData Name="root" ActionTag="2026421551" Tag="16" IconVisible="False" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1276" Scale9Height="957" ctype="PanelObjectData">
             <Size X="960.0000" Y="640.0000" />
             <Children>
-              <AbstractNodeData Name="btnTavern" ActionTag="-1808475939" Tag="14" IconVisible="False" LeftMargin="209.3837" RightMargin="650.6163" TopMargin="262.4752" BottomMargin="277.5248" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="482" Scale9Height="490" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btnTavern" ActionTag="-1808475939" Tag="14" IconVisible="False" LeftMargin="209.3837" RightMargin="650.6163" TopMargin="262.4752" BottomMargin="277.5248" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="482" Scale9Height="490" ctype="ButtonObjectData">
                 <Size X="100.0000" Y="100.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="259.3837" Y="327.5248" />

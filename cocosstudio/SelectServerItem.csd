@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SelectServerItem" ID="a21b1a1a-4c77-4402-b30c-df9380c2f2a6" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="SelectServerItem" ID="a21b1a1a-4c77-4402-b30c-df9380c2f2a6" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -9,7 +9,7 @@
           <AbstractNodeData Name="root" ActionTag="1061469417" Tag="15" IconVisible="False" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="450.0000" Y="100.0000" />
             <Children>
-              <AbstractNodeData Name="txtServerName" ActionTag="741747067" Tag="16" IconVisible="False" LeftMargin="28.9233" RightMargin="321.0767" TopMargin="47.9866" BottomMargin="32.0134" FontSize="20" LabelText="Text Label" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="TextObjectData">
+              <AbstractNodeData Name="txtServerName" ActionTag="741747067" Tag="16" IconVisible="False" LeftMargin="28.9233" RightMargin="321.0767" TopMargin="47.9866" BottomMargin="32.0134" FontSize="20" LabelText="Text Label" ctype="TextObjectData">
                 <Size X="100.0000" Y="20.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="78.9233" Y="42.0134" />

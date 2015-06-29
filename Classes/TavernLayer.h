@@ -4,6 +4,7 @@
 #include "cocos2d.h"
 #include "cocostudio\CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "HeroModel.h"
 
 using namespace cocostudio::timeline;
 using namespace cocos2d::ui;
@@ -16,6 +17,8 @@ public:
 	CREATE_FUNC(TavernLayer);
 	void initMain();
 
+	void setPartners(Vector<HeroModel*> parts );
+	void selectTouchEvent(Ref* pSender, Widget::TouchEventType type);
 	SEL_CallFuncN  m_closeAction;
 
 private:
@@ -27,6 +30,12 @@ private:
 	Layout* root;
 	Button* btnClose;
 	Button* btnJoin;
+
+	ListView* lstFreePartner;
+	ListView* lstMyPartner;
+	Text* txtPartnerInfo;
+
+	HeroModel* _selectedPartner;
 };
 
 #endif

@@ -17,8 +17,9 @@ public:
 
 	int m_heroID;
 	string m_heroName;
-	string m_state;
+	string m_comment;
 	string getHeroImage();
+	string getPartnerImage();
 
 
 	float m_HP;

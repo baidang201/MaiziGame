@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SelectServerLayer" ID="594438ea-048a-4a23-9696-aac76fc7df50" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="SelectServerLayer" ID="594438ea-048a-4a23-9696-aac76fc7df50" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
               <AbstractNodeData Name="imgBack" ActionTag="-1862310850" Tag="22" IconVisible="False" LeftMargin="227.7279" RightMargin="212.2721" TopMargin="57.2893" BottomMargin="62.7107" Scale9Width="520" Scale9Height="520" ctype="ImageViewObjectData">
                 <Size X="520.0000" Y="520.0000" />
                 <Children>
-                  <AbstractNodeData Name="lstServer" ActionTag="138606815" Tag="25" IconVisible="False" LeftMargin="37.2242" RightMargin="32.7758" TopMargin="82.3081" BottomMargin="37.6919" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" DirectionType="Vertical" VerticalType="0" ctype="ListViewObjectData">
+                  <AbstractNodeData Name="lstServer" ActionTag="138606815" Tag="25" IconVisible="False" LeftMargin="37.2242" RightMargin="32.7758" TopMargin="82.3081" BottomMargin="37.6919" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
                     <Size X="450.0000" Y="400.0000" />
                     <AnchorPoint />
                     <Position X="37.2242" Y="37.6919" />
@@ -34,7 +34,7 @@
                 <PreSize X="0.5417" Y="0.8125" />
                 <FileData Type="Normal" Path="Login/regist_list.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnOK" ActionTag="7162129" Tag="24" IconVisible="False" LeftMargin="744.8572" RightMargin="13.1428" TopMargin="454.8706" BottomMargin="86.1294" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="172" Scale9Height="77" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btnOK" ActionTag="7162129" Tag="24" IconVisible="False" LeftMargin="744.8572" RightMargin="13.1428" TopMargin="454.8706" BottomMargin="86.1294" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="172" Scale9Height="77" ctype="ButtonObjectData">
                 <Size X="202.0000" Y="99.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="845.8572" Y="135.6294" />
@@ -49,7 +49,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnReturn" ActionTag="1209523289" Tag="23" IconVisible="False" LeftMargin="19.6936" RightMargin="738.3064" TopMargin="456.6524" BottomMargin="84.3476" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="172" Scale9Height="77" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btnReturn" ActionTag="1209523289" Tag="23" IconVisible="False" LeftMargin="19.6936" RightMargin="738.3064" TopMargin="456.6524" BottomMargin="84.3476" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="172" Scale9Height="77" ctype="ButtonObjectData">
                 <Size X="202.0000" Y="99.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="120.6936" Y="133.8476" />

@@ -11,6 +11,10 @@ public:
 	ServerModel* m_currentServer;
 	HeroModel* m_currentHero;
 
+	Vector<HeroModel*> m_heros;
+	Vector<ServerModel*> m_servers;
+	Vector<HeroModel*> m_partners;
+
 private:
 	static RuntimeParam* _instance;
 

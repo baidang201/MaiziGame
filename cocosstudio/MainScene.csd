@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="MainScene" ID="a2ee0952-26b5-49ae-8bf9-4f1d6279b798" Version="2.2.9.0" />
+  <PropertyGroup Type="Scene" Name="MainScene" ID="a2ee0952-26b5-49ae-8bf9-4f1d6279b798" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000">
@@ -19,7 +19,7 @@
           </ScaleFrame>
         </Timeline>
       </Animation>
-      <ObjectData Name="Scene" ctype="GameNodeObjectData">
+      <ObjectData Name="Scene" Visible="False" ctype="GameNodeObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
           <AbstractNodeData Name="root" ActionTag="-2036315765" Tag="13" IconVisible="False" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="960" Scale9Height="640" ctype="PanelObjectData">
@@ -69,7 +69,7 @@
               <AbstractNodeData Name="imgServerBack" ActionTag="-770244142" Tag="9" IconVisible="False" LeftMargin="322.9081" RightMargin="309.0919" TopMargin="279.3011" BottomMargin="296.6989" Scale9Width="328" Scale9Height="64" ctype="ImageViewObjectData">
                 <Size X="328.0000" Y="64.0000" />
                 <Children>
-                  <AbstractNodeData Name="txtServerName" ActionTag="1876027700" Tag="11" IconVisible="False" LeftMargin="79.6343" RightMargin="188.3657" TopMargin="21.5959" BottomMargin="22.4041" FontSize="20" LabelText="服务器" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="TextObjectData">
+                  <AbstractNodeData Name="txtServerName" ActionTag="1876027700" Tag="11" IconVisible="False" LeftMargin="79.6343" RightMargin="188.3657" TopMargin="21.5959" BottomMargin="22.4041" FontSize="20" LabelText="服务器" ctype="TextObjectData">
                     <Size X="60.0000" Y="20.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="109.6343" Y="32.4041" />
@@ -99,7 +99,7 @@
                 <PreSize X="0.3417" Y="0.1000" />
                 <FileData Type="Normal" Path="Public/public_input.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btnStart" ActionTag="1940972044" Tag="26" IconVisible="False" LeftMargin="270.8535" RightMargin="301.1465" TopMargin="401.9748" BottomMargin="124.0252" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="358" Scale9Height="92" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btnStart" ActionTag="1940972044" Tag="26" IconVisible="False" LeftMargin="270.8535" RightMargin="301.1465" TopMargin="401.9748" BottomMargin="124.0252" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="358" Scale9Height="92" ctype="ButtonObjectData">
                 <Size X="388.0000" Y="114.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="464.8535" Y="181.0252" />

@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SelectHeroItem" ID="994cc2a5-7b8d-409b-9576-8b0d5fdecd32" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="SelectHeroItem" ID="994cc2a5-7b8d-409b-9576-8b0d5fdecd32" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -19,7 +19,7 @@
                 <PreSize X="1.0000" Y="1.0000" />
                 <FileData Type="Normal" Path="Hero/Hero1.jpg" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="txtHeroName" ActionTag="-1602856968" Tag="32" IconVisible="False" LeftMargin="155.6295" RightMargin="164.3705" TopMargin="336.6344" BottomMargin="23.3656" FontSize="20" LabelText="英雄备注&#xA;" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="TextObjectData">
+              <AbstractNodeData Name="txtHeroName" ActionTag="-1602856968" Tag="32" IconVisible="False" LeftMargin="155.6295" RightMargin="164.3705" TopMargin="336.6344" BottomMargin="23.3656" FontSize="20" LabelText="英雄备注&#xA;" ctype="TextObjectData">
                 <Size X="80.0000" Y="40.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="195.6295" Y="43.3656" />

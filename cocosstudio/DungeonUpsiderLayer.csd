@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="DungeonUpsiderLayer" ID="1d4aa573-e489-42e5-b46d-1d42555be9b0" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="DungeonUpsiderLayer" ID="1d4aa573-e489-42e5-b46d-1d42555be9b0" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

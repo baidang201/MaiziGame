@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SelectHeroLayer" ID="1778a026-1ab3-4117-a43a-97cfee9e6dcc" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="SelectHeroLayer" ID="1778a026-1ab3-4117-a43a-97cfee9e6dcc" Version="2.3.0.1" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
               <AbstractNodeData Name="imgBack" ActionTag="2009858761" Tag="28" IconVisible="False" LeftMargin="212.4527" RightMargin="227.5473" TopMargin="60.6802" BottomMargin="59.3198" Scale9Width="520" Scale9Height="520" ctype="ImageViewObjectData">
                 <Size X="520.0000" Y="520.0000" />
                 <Children>
-                  <AbstractNodeData Name="lstHero" ActionTag="-208391772" Tag="29" IconVisible="False" LeftMargin="60.6524" RightMargin="59.3476" TopMargin="87.5677" BottomMargin="32.4323" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" VerticalType="0" ctype="ListViewObjectData">
+                  <AbstractNodeData Name="lstHero" ActionTag="-208391772" Tag="29" IconVisible="False" LeftMargin="60.6524" RightMargin="59.3476" TopMargin="87.5677" BottomMargin="32.4323" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" ctype="ListViewObjectData">
                     <Size X="400.0000" Y="400.0000" />
                     <AnchorPoint />
                     <Position X="60.6524" Y="32.4323" />
