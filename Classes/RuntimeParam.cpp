@@ -18,10 +18,10 @@ RuntimeParam::RuntimeParam()
 
 
 	m_heros = Vector<HeroModel*>();
-	m_heros.pushBack(new HeroModel(1, "Mage1", "1"));
-	m_heros.pushBack(new HeroModel(2, "Mage2", "2"));
-	m_heros.pushBack(new HeroModel(3, "Mage3", "3"));
-	m_heros.pushBack(new HeroModel(4, "Mage4", "4"));
+	m_heros.pushBack(new HeroModel(101, "Mage1", "1"));
+	m_heros.pushBack(new HeroModel(102, "Mage2", "2"));
+	m_heros.pushBack(new HeroModel(103, "Mage3", "3"));
+	m_heros.pushBack(new HeroModel(104, "Mage4", "4"));
 
 	m_partners = Vector<HeroModel*>();
 	m_partners.pushBack(new HeroModel(1, "Partner1", "1"));
@@ -41,7 +41,7 @@ RuntimeParam::RuntimeParam()
 	m_servers.pushBack(new ServerModel(7, "7·þ¡ªÊ¯", "1"));
 	m_servers.pushBack(new ServerModel(8, "8·þ¡ª»ð", "1"));
 
-
+	m_MyPartners = Vector<HeroModel*>();
 }
 
 RuntimeParam::~RuntimeParam()

@@ -15,6 +15,8 @@ public:
 	Vector<ServerModel*> m_servers;
 	Vector<HeroModel*> m_partners;
 
+	Vector<HeroModel*> m_MyPartners;
+
 private:
 	static RuntimeParam* _instance;
 

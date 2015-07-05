@@ -19,7 +19,11 @@ public:
 
 	void setPartners(Vector<HeroModel*> parts );
 	void selectTouchEvent(Ref* pSender, Widget::TouchEventType type);
+	void selectMyPartnerTouchEvent(Ref* pSender, Widget::TouchEventType type);
 	SEL_CallFuncN  m_closeAction;
+
+	void showPartnerInfo(HeroModel* info);
+	void refreshMyPartner();
 
 private:
 	TavernLayer();
